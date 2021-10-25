@@ -12,7 +12,8 @@ This repo contains the following three Solidity smart contracts:
 The smart contracts are written in Solidity and compatible with Ethereum-based blockchains.
 
 The contracts were developed and tested using the following tools:
-* Ethereum Remix IDE was used to develop, compile, and deploy the code.
+* The OpenZeppelin Solidity library was used to import ERC-20 and crowdsale functionalities. 
+* The Ethereum Remix IDE was used to develop, compile, and deploy the code.
 * Genache was used to create a local Ethereum blockchain with test accounts to which the contracts were deployed.
 * MetaMask is a digital wallet for Ethereum and was used to link the Remix IDE to the local blockchain.
  * Injected Web3 was used to create a link between Remix and MetaMask.
